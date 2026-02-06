@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["halo", "pagi", "syalom", "assalamualaikum", "hai", "hi", "hei"],
+      "responses": [
+        "Halo! Selamat datang di Chatbot Universitas Klabat (UNKLAB).",
+        "Pagi! Ada yang bisa saya bantu tentang UNKLAB?",
+        "Syalom! Mau tahu apa tentang UNKLAB?"
+      ]
+    },
+    {
+      "tag": "identitas",
+      "patterns": ["tentang unklab", "siapa unklab", "apa itu unklab", "identitas unklab", "info unklab", "univers klabat"],
+      "responses": [
+        "Universitas Klabat, Airmadidi, didirikan GMAHK (Gereja Masehi Adventis Hari Ketujuh). Kami berkomitmen pada pendidikan berkualitas."
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": ["dimana unklab", "lokasi unklab", "alamat unklab", "di mana kampus", "letak kampus"],
+      "responses": [
+        "Unklab berada di Jl. Arnold Mononutu, Airmadidi, Minahasa Utara, Sulawesi Utara."
+      ]
+    },
+    {
+      "tag": "fakultas",
+      "patterns": ["ada fakultas apa", "fakultas apa saja", "daftar fakultas", "berapa fakultas", "fakultas unklab"],
+      "responses": [
+        "Unklab memiliki 6 Fakultas: FILKOM (Ilmu Komputer), FEB (Ekonomi & Bisnis), Keperawatan, FKIP (Keguruan & Ilmu Pendidikan), Pertanian, dan Filsafat."
+      ]
+    },
+    {
+      "tag": "filkom",
+      "patterns": ["info filkom", "komputer", "informatika", "sistem informasi", "ilmu komputer", "prodi apa di filkom"],
+      "responses": [
+        "Fakultas Ilmu Komputer (FILKOM) memiliki 2 program studi: Informatika dan Sistem Informasi. Keduanya fokus pada teknologi informasi modern."
+      ]
+    },
+    {
+      "tag": "portal",
+      "patterns": ["portal akademik", "siu", "krs", "nilai", "registrasi", "akademik online", "portal unklab"],
+      "responses": [
+        "Akses portal akademik Unklab di https://siu.unklab.ac.id. Di sini kamu bisa mengisi KRS, cek nilai, dan mengatur akademik."
+      ]
+    },
+    {
+      "tag": "asrama",
+      "patterns": ["asrama", "dormitory", "info asrama", "tempat tinggal", "penghuni asrama"],
+      "responses": [
+        "Asrama di Unklab adalah wajib bagi mahasiswa. Kami memiliki 4 asrama: Crystal, Edelweiss, Jasmine, dan Annex. Masing-masing memiliki fasilitas lengkap."
+      ]
+    },
+    {
+      "tag": "ukt",
+      "patterns": ["biaya kuliah", "ukt", "berapa biaya", "pembayaran", "cicilan", "bayar kuliah"],
+      "responses": [
+        "Biaya kuliah (UKT) di Unklab dapat dibayar via BNI atau Mandiri. Untuk detail dan besaran UKT sesuai kemampuan, silakan periksa di Business Office (BO)."
+      ]
+    },
+    {
+      "tag": "skripsi",
+      "patterns": ["skripsi", "sidang", "syarat wisuda", "lulus", "toefl", "prasyarat matkul"],
+      "responses": [
+        "Untuk sidang skripsi, kamu harus lulus TOEFL dan telah menyelesaikan semua matkul prasyarat. Hubungi departemen atau pembimbing akademik untuk detail lebih lanjut."
+      ]
+    },
+    {
+      "tag": "ucapan_terima_kasih",
+      "patterns": ["terima kasih", "thanks", "makasih", "tq", "syukuran"],
+      "responses": [
+        "Sama-sama! Senang membantu. Ada pertanyaan lain tentang Unklab?",
+        "Dengan senang hati! Butuh info lagi?"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["goodbye", "dah", "bye", "sampai jumpa", "dadah", "terima kasih banyak"],
+      "responses": [
+        "Sampai jumpa lagi! Semoga sukses di Unklab.",
+        "Goodbye! Jangan ragu untuk bertanya lagi.",
+        "Dah! Semangat belajarnya!"
+      ]
+    }
+  ]
+}
