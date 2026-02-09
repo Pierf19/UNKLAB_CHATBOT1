@@ -1,0 +1,973 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "halo",
+        "hai",
+        "hi",
+        "hey",
+        "hei",
+        "pagi",
+        "siang",
+        "malam",
+        "selamat pagi",
+        "selamat siang",
+        "selamat malam",
+        "syalom",
+        "assalamualaikum",
+        "waalaikumsalam",
+        "hello",
+        "good morning",
+        "good afternoon",
+        "p",
+        "uy",
+        "permisi",
+        "hi there",
+        "halo min",
+        "hai kak"
+      ],
+      "responses": [
+        "Halo! Chatbot UNKLAB siap bantu. Mau tanya apa nih?",
+        "Syalom! Ada yang bisa dibantu seputar UNKLAB?",
+        "Hai! Silakan tanya apa saja tentang kampus, biaya, atau asrama.",
+        "Selamat datang di Universitas Klabat! Mau info apa?"
+      ]
+    },
+    {
+      "tag": "identitas_unklab",
+      "patterns": [
+        "apa itu unklab",
+        "tentang unklab",
+        "unklab tu apa",
+        "identitas unklab",
+        "profil unklab",
+        "info unklab",
+        "universitas klabat",
+        "sejarah uk",
+        "univ apaan ni",
+        "unklab singkatan dari"
+      ],
+      "responses": [
+        "Universitas Klabat (UNKLAB) adalah universitas swasta Kristen Advent di Airmadidi, Minahasa Utara. Kami fokus pada pendidikan berkualitas dengan nilai-nilai kristiani.",
+        "UNKLAB itu kampus 'Excellence in Christian Education'. Kita punya asrama, fasilitas lengkap, dan lingkungan yang asri banget."
+      ]
+    },
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "dimana",
+        "alamat",
+        "letak gedung",
+        "denah lokasi",
+        "jalan arnold mononutu",
+        "dimana alamatnya",
+        "maps ke sanaunklab dmn",
+        "lokasi dmn",
+        "alamatnya dmn",
+        "alamat lengkap jalan",
+        "jauh ga dari manado",
+        "posisi kampus",
+        "tempatnya dmn",
+        "alamat lengkap",
+        "share loc",
+        "kampus dmn",
+        "kantor pusat",
+        "unklab airmadidi",
+        "arah ke unklab",
+        "posisi kampus",
+        "cari gedung",
+        "lokasi cafetaria",
+        "lapangan bola dimana",
+        "alamat",
+        "patokan",
+        "letak geografis",
+        "dimana alamatnya",
+        "posisi tepatnya"
+      ],
+      "responses": [
+        " Lokasi UNKLAB: Jl. Arnold Mononutu, Airmadidi, Minahasa Utara. Sekitar 30-45 menit dari kota Manado.",
+        "Kampus kita ada di Airmadidi, Sulawesi Utara. Udaranya sejuk karena dekat kaki Gunung Klabat!"
+      ]
+    },
+    {
+      "tag": "kontak",
+      "patterns": [
+        "nomor telepon",
+        "minta no hp",
+        "call center",
+        "hubungi siapa",
+        "nomor whatsapp",
+        "no wa admin",
+        "alamat email",
+        "kirim pesan",
+        "hubungi staf",
+        "call center",
+        "nomor telepon",
+        "contact person",
+        "akun instagram",
+        "sosial media",
+        "customer service",
+        "humas universitas",
+        "nomor hp",
+        "chat admin",
+        "email admission",
+        "hubungi kamialamat email resmi",
+        "punya instagram atau facebook",
+        "bagaimana cara menelepon kantor",
+        "layanan pengaduan atau helpdesk",
+        "hubungi admin lewat whatsapp",
+        "ada nomor wa yang aktif",
+        "alamat surat elektronik",
+        "social media resmi kampus",
+        "no tlp",
+        "minta wa",
+        "nomor hp",
+        "contact",
+        "cp admin",
+        "min minta nomor",
+        "call center",
+        "ada wa ga",
+        "bisa telpon",
+        "emailnya apa",
+        "chat personal",
+        "japri admin"
+      ],
+      "responses": [
+        " Kontak UNKLAB:\nTelepon: (0431) 891035\nEmail: info@unklab.ac.id\nWebsite: www.unklab.ac.id",
+        "Bisa hubungi (0431) 891035 atau cek IG resmi @unklab_official."
+      ]
+    },
+    {
+      "tag": "fakultas",
+      "patterns": [
+        "fakultas apa saja",
+        "ada fakultas apa",
+        "daftar fakultas",
+        "jurusan apa aja",
+        "prodi apa aja",
+        "ada jurusan apa",
+        "fakultasnya apa ae",
+        "mau kuliah ambil apa",
+        "pilihan jurusan",
+        "fakultasnya",
+        "fakultas",
+        "faculty",
+        "mau pilih jurusan",
+        "program studi",
+        "fakultas di unklab",
+        "prodi apa saja",
+        "list jurusan yang tersedia",
+        "program studi yang ada",
+        "pilihan prodi",
+        "macam macam jurusan",
+        "apa saja fakultas di unklab",
+        "info semua prodi"
+      ],
+      "responses": [
+        "Di UNKLAB ada 6 Fakultas keren:\n1. Ilmu Komputer (FILKOM)\n2. Ekonomi (FEB)\n3. Keperawatan\n4. Keguruan (FKIP)\n5. Pertanian\n6. Filsafat\n\nMau info yang mana?"
+      ]
+    },
+    {
+      "tag": "filkom",
+      "patterns": [
+        "filkom",
+        "fakultas komputer",
+        "ilmu komputer",
+        "informatika",
+        "sistem informasi",
+        "tik",
+        "it",
+        "jurusan komputer",
+        "anak it",
+        "oding",
+        "coding",
+        "prodi komputer",
+        "si",
+        "ti"
+      ],
+      "responses": [
+        "💻 FILKOM (Fakultas Ilmu Komputer) punya 2 jurusan:\n1. Informatika (S1) - Belajar coding, AI, bikin aplikasi.\n2. Sistem Informasi (S1) - Belajar bisnis + teknologi.\n\nCocok buat kamu yang suka teknologi!"
+      ]
+    },
+    {
+      "tag": "feb",
+      "patterns": [
+        "feb",
+        "ekonomi",
+        "bisnis",
+        "manajemen",
+        "akuntansi",
+        "fakultas ekonomi",
+        "jurusan ekonomi",
+        "anak ekonomi",
+        "mau jadi bos",
+        "pengusaha",
+        "accounting",
+        "apakah ada fekon",
+        "fekon",
+        "gelar feb",
+        "belajar apa di feb",
+        "prodi akuntansi",
+        "prodi manajemen",
+        "jurusan akuntansi",
+        "jurusan manajemen"
+      ],
+      "responses": [
+        "💼 FEB (Fakultas Ekonomi) ada jurusan:\n1. Manajemen (S1)\n2. Akuntansi (S1)\n\nLulusannya banyak yang kerja di bank, perusahaan besar, atau jadi pengusaha sukses!"
+      ]
+    },
+    {
+      "tag": "keperawatan",
+      "patterns": [
+        "keperawatan",
+        "nursing",
+        "perawat",
+        "ners",
+        "fakultas keperawatan",
+        "jadi suster",
+        "jurusan perawat",
+        "kesehatan",
+        "apakah perawat ada",
+        "nurse",
+        "apakah nursing bagus",
+        "apakah perawat kerenkesehatan",
+        "tenaga medis",
+        "belajar keperawatansyarat masuk keperawatan"
+      ],
+      "responses": [
+        "🏥 Fakultas Keperawatan UNKLAB salah satu yang terbaik!\nProgram: S1 Keperawatan + Profesi Ners.\nLulusannya banyak yang kerja di luar negeri lho."
+      ]
+    },
+    {
+      "tag": "fkip",
+      "patterns": [
+        "fkip",
+        "keguruan",
+        "pendidikan",
+        "guru",
+        "jadi guru",
+        "pgsd",
+        "pendidikan bahasa inggris",
+        "matematika",
+        "pbi",
+        "fkip apa",
+        "pendidikan ekonomi",
+        "gelar sarjana pendidikan",
+        "s.pd",
+        "jurusan untuk mengajar",
+        "apa guna fkip",
+        "apakah fkip jadi guru",
+        "apakah keunggulan fkipkurikulum keguruan",
+        "sarjana pendidikan"
+      ],
+      "responses": [
+        "👨‍🏫 FKIP (Keguruan) punya jurusan:\n1. Pendidikan Bahasa Inggris\n2. Pendidikan Guru SD (PGSD)\n3. Pendidikan Matematika\n\nFakultas pencetak guru-guru hebat!"
+      ]
+    },
+    {
+      "tag": "pertanian",
+      "patterns": [
+        "pertanian",
+        "agriculture",
+        "agribisnis",
+        "agroteknologi",
+        "bercocok tanam",
+        "petani",
+        "jurusan pertanian",
+        "tugas pertanian apa",
+        "jurusan pertanian",
+        "tanam",
+        "apa guna pertanian",
+        "faperta",
+        "fakultas pertanian",
+        "belajar apa di pertanian",
+        "prospek kerja pertanian",
+        "agrotek",
+        "agri",
+        "tanam tanaman",
+        "lahan unklab",
+        "info jurusan pertanian",
+        "syarat masuk pertanian"
+      ],
+      "responses": [
+        "🌾 Fakultas Pertanian punya jurusan:\n1. Agroteknologi\n2. Agribisnis\n\nFasilitasnya lengkap, ada lahan praktek dan greenhouse modern."
+      ]
+    },
+    {
+      "tag": "filsafat",
+      "patterns": [
+        "filsafat",
+        "teologi",
+        "pendeta",
+        "pastoral",
+        "jadi pendeta",
+        "fakultas agama",
+        "jurusan agamaapa fungsi filsafat",
+        "apakah ada filsafat",
+        "tugas filsafat apafakultas filsafat",
+        "theology",
+        "sekolah pendeta",
+        "belajar alkitab",
+        "matakuliah filsafat",
+        "fafil",
+        "ingin jadi hamba Tuhan",
+        "pendidikan teologi",
+        "syarat masuk filsafat"
+      ],
+      "responses": [
+        "⛪ Fakultas Filsafat (Teologi) khusus untuk mempersiapkan calon pendeta dan pelayan Tuhan. Fokus studi Alkitab dan pelayanan."
+      ]
+    },
+    {
+      "tag": "pendaftaran",
+      "patterns": [
+        "cara daftar",
+        "pendaftaran",
+        "daftar kuliah",
+        "gimana cara masuk",
+        "cara regis",
+        "mau kuliah",
+        "syarat masuk",
+        "daftar online",
+        "link pendaftaran",
+        "regis kampus",
+        "info daftar",
+        "syarat daftarjadwal pendaftaran",
+        "tes masuk kapan",
+        "gelombang pendaftaran",
+        "mo daftar",
+        "mo maso unklab",
+        "cara register",
+        "pendaftaran mahasiswa",
+        "mo tanya cara daftar",
+        "jalur masuk unklab",
+        "langkah mendaftar",
+        "buat akun pmb",
+        "website penerimaan",
+        "kapan gelombang dibuka",
+        "jadwal tes masuk",
+        "cara daftar ulang",
+        "persyaratan calon mahasiswa",
+        "registrasi onlinecara daftar mahasiswa baru",
+        "info pmb unklab",
+        "link pendaftaran maba",
+        "syarat masuk universitas",
+        "kapan gelombang 1 dibuka",
+        "alur registrasi pmb",
+        "formulir pendaftaran online",
+        "bikin akun pendaftaran",
+        "seleksi masuk",
+        "tes masuk kapan",
+        "jadwal ujian masuk",
+        "persyaratan berkas maba",
+        "cara jadi mahasiswa unklab",
+        "langkah langkah mendaftar",
+        "registrasi pmb",
+        "pendaftaran gelombang 2",
+        "daftar ulang maba"
+      ],
+      "responses": [
+        "📝 Cara daftar gampang banget:\n1. Buka website unklab.ac.id\n2. Isi formulir online\n3. Upload rapor/ijazah & foto\n4. Bayar biaya pendaftaran\n\nKalau bingung, bisa langsung ke kampus bagian Admisi."
+      ]
+    },
+    {
+      "tag": "biaya_kuliah",
+      "patterns": [
+        "biaya kuliah",
+        "ukt",
+        "berapa biaya",
+        "spp",
+        "biaya kulia brp",
+        "byar brp",
+        "mahal ga",
+        "mhal g",
+        "uang gedung",
+        "duit kuliah",
+        "biaya masuk",
+        "harganya berapa",
+        "hrg msk",
+        "biaya per semester",
+        "total biaya",
+        "bisa nyicil ga",
+        "cicilan",
+        "uang gedung berapa",
+        "bayar per semester",
+        "biaya sks",
+        "total biaya masuk",
+        "rincian pembayaran",
+        "uang pembangunan",
+        "cicilan uang kuliah",
+        "biaya asrama dan makan",
+        "harga kuliah",
+        "spp per semester",
+        "biaya development fee",
+        "uang pangkal"
+      ],
+      "responses": [
+        "💰 Biaya kuliah bervariasi tergantung jurusan dan asrama.\nKisaran awal masuk sekitar Rp 15jt - 25jt (sudah termasuk asrama + makan).\n\nBisa dicicil kok! Untuk rincian pasnya, silakan cek di website atau tanya ke bagian Keuangan (Finance).",
+        "Tergantung jurusan, kak. Tapi tenang, biaya di UNKLAB *all-in* (kuliah + asrama + makan). Jadi lebih hemat daripada ngekos di luar!"
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "beasiswa",
+        "ada beasiswa ga",
+        "scholarship",
+        "cara dapat beasiswa",
+        "beasiswa",
+        "info beasiswa",
+        "ada beasiswa apa saja",
+        "syarat beasiswa",
+        "beasiswa unklab",
+        "beasiswa prestasi",
+        "beasiswa kurang mampu"
+      ],
+      "responses": [
+        "🎓 Ada banyak beasiswa!\n1. Beasiswa Prestasi (Nilai tinggi)\n2. Beasiswa Olahraga/Seni\n3. Beasiswa Pekerjaan (Student Labor)\n4. Bantuan Finansial\n\nInfo lengkap tanya ke kantor Student Personnel Service (SPS) ya."
+      ]
+    },
+    {
+      "tag": "portal_akademik",
+      "patterns": [
+        "portal akademik",
+        "siu",
+        "krs",
+        "nilai",
+        "cek nilai",
+        "login siu",
+        "siu error",
+        "lupa password",
+        "gbs login",
+        "cara isi krs",
+        "lihat transkrip",
+        "jadwal kuliah",
+        "website mahasiswa",
+        "login siu",
+        "isi krs online",
+        "lihat nilai semester",
+        "kartu hasil studi",
+        "khs",
+        "transkrip nilai",
+        "lupa password portal",
+        "website mahasiswa",
+        "sistem informasi akademik",
+        "jadwal kuliah di siu",
+        "ganti password akun",
+        "error saat login",
+        "cara cek indeks prestasilihat transkrip",
+        "khs",
+        "kartu hasil studi",
+        "portal unklab",
+        "akun portal",
+        "masalah portal",
+        "sistem informasi akademik"
+      ],
+      "responses": [
+        "💻 Portal SIU: https://siu.unklab.ac.id\nDi sini bisa isi KRS, cek nilai, dan lihat jadwal.\n\nKalau lupa password atau error, lapor ke tim IT di gedung LPF."
+      ]
+    },
+    {
+      "tag": "asrama",
+      "patterns": [
+        "asrama",
+        "tempat tinggal",
+        "kost",
+        "wajib asrama ga",
+        "harus asrama?",
+        "tinggal dmn",
+        "asrama putra",
+        "asrama putri",
+        "nama asrama",
+        "fasilitas asrama",
+        "kamar mandi dalam",
+        "kamar asrama",
+        "pindah asrama",
+        "laundry asrama",
+        "syarat tinggal di asrama",
+        "keluar asrama"
+      ],
+      "responses": [
+        "🏠 UNKLAB itu kampus berasrama. Mahasiswa S1 Reguler (single) **WAJIB** tinggal di asrama.\n\nAsrama Putra: Crystal, Annex\nAsrama Putri: Edelweiss, Jasmine\n\nSeru kok, bisa punya banyak teman dan makan sudah disiapkan 3x sehari!"
+      ]
+    },
+    {
+      "tag": "perpustakaan",
+      "patterns": [
+        "perpustakaan",
+        "library",
+        "perpus",
+        "buku",
+        "jam buka perpus",
+        "pinjam buku",
+        "wifi perpus",
+        "nugas dmn",
+        "cari referensi",
+        "buku ellen g white",
+        "buku matem",
+        "buku english",
+        "koleksi buku",
+        "perpus dimana",
+        "anggota perpustakaan",
+        "baca buku",
+        "e-library",
+        "jurnal",
+        "nyari referensijam buka library",
+        "pinjam buku",
+        "kembalikan buku",
+        "denda keterlambatan buku",
+        "ruang baca",
+        "akses jurnal online",
+        "kartu perpustakaan",
+        "cari referensi",
+        "unklab library",
+        "lokasi perpustakaan",
+        "syarat masuk perpus",
+        "biaya denda buku"
+      ],
+      "responses": [
+        "📚 Perpustakaan ada di gedung utama. Tempatnya dingin, wifi kenceng, koleksi buku lengkap.\nBuka: Senin-Kamis (08.00-21.00), Jumat & Minggu (jam tertentu)."
+      ]
+    },
+    {
+      "tag": "laboratorium",
+      "patterns": [
+        "lab",
+        "laboratorium",
+        "praktek",
+        "praktikum",
+        "lab komputer",
+        "lab bahasa",
+        "fasilitas prakteklab dmn",
+        "fasilitas lab apa",
+        "berapa lablab komputer dimana",
+        "fasilitas laboratorium",
+        "pinjam lab",
+        "praktek komputer",
+        "alat laboratorium",
+        "apakah ada lab bahasa",
+        "jam buka lablab bahasa inggris",
+        "tempat praktek komputer",
+        "laboratorium sekretari",
+        "penggunaan lab unklab",
+        "fasilitas praktek",
+        "ruang laboratorium",
+        "jam buka lab",
+        "alat alat praktek"
+      ],
+      "responses": [
+        "🔬 Fasilitas Lab kita lengkap!\nAda Lab Komputer canggih, Lab Keperawatan (kayak RS beneran), Lab Bahasa, dan Greenhouse buat Pertanian."
+      ]
+    },
+    {
+      "tag": "skripsi",
+      "patterns": [
+        "skripsi",
+        "tugas akhir",
+        "ta",
+        "sidang",
+        "susah ga skripsi",
+        "kapan skripsi",
+        "syarat skripsi",
+        "wisuda kapan",
+        "lulus berapa lama",
+        "kapan sidang",
+        "apa syarat skripsi",
+        "apakah skripsi bayar",
+        "seminar proposal",
+        "sempro",
+        "sidang meja hijau",
+        "yudisium",
+        "syarat skripsi",
+        "bimbingan",
+        "kapan sidang",
+        "acc judul"
+      ],
+      "responses": [
+        "📖 Skripsi diambil di semester akhir (biasanya semester 7/8). Syaratnya IPK minimal 2.00 dan lulus TOEFL.\nSemangat pejuang skripsi! "
+      ]
+    },
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "fasilitas",
+        "ada apa aja",
+        "kantin",
+        "lapangan",
+        "gym",
+        "kolam renang",
+        "wifi",
+        "wifi kenceng ga",
+        "wifi lemot",
+        "wc bersih ga",
+        "tempat olahraga",
+        "sport hall",
+        "gereja kampus",
+        "fasilitas kesehatan",
+        "clinic",
+        "atm center",
+        "apa saja fasilitasnya",
+        "lapangan basket",
+        "lapangan voli"
+      ],
+      "responses": [
+        "🏫 Fasilitas UNKLAB:\n- Wifi di seluruh area kampus\n- Sport Hall (Basket, Voli, Badminton)\n- Gym / Fitness Center\n- Kantin (Cafeteria) makanan sehat\n- Chapel (Gereja)\n- Klinik kesehatan"
+      ]
+    },
+    {
+      "tag": "dosen_info",
+      "patterns": [
+        "dosen",
+        "pengajar",
+        "dosennya gimana",
+        "dosen killer",
+        "dosen galak",
+        "dosen baik",
+        "guru",
+        "kelakuan dosen",
+        "dosen enak ga",
+        "siapa saja dosen",
+        "dosen humble",
+        "info dosen",
+        "jadwal dosen",
+        "list dosen",
+        "siapa dosen matakuliah",
+        "konsultasi dosen",
+        "ketemu dosen",
+        "dosen pengajar"
+      ],
+      "responses": [
+        "👨‍🏫 Dosen di UNKLAB profesional dan peduli sama mahasiswa kok. Kalau ada yang tegas, itu biar kita disiplin.\nSetiap mahasiswa juga dapet Dosen PA (Pembimbing Akademik) buat curhat masalah kuliah."
+      ]
+    },
+    {
+      "tag": "faq_unik",
+      "patterns": [
+        "ada hantu ga",
+        "serem ga",
+        "boleh pacaran ga",
+        "pacar",
+        "menu kantin",
+        "makan apa",
+        "bawah tangga",
+        "bt",
+        "nongkrong dmn",
+        "boleh merokok",
+        "rokok",
+        "miras",
+        "alkohol",
+        "boleh bawa motor",
+        "parkiran",
+        "narkoba",
+        "vape"
+      ],
+      "responses": [
+        "🤔 Info Unik:\n1. UNKLAB kawasan bebas rokok & alkohol (Healthy Lifestyle!).\n2. Pacaran boleh, tapi harus sopan dan sesuai aturan kampus.\n3. Asrama aman kok, penjaganya ramah-ramah (gak ada hantu, adanya preceptor).\n4. Makanan di kantin semuanya Halal dan sehat (Vegetarian friendly)."
+      ]
+    },
+    {
+      "tag": "kalender",
+      "patterns": [
+        "kapan libur",
+        "libur semester",
+        "masuk kapan",
+        "tanggal merah",
+        "kalender akademik",
+        "uts kapan",
+        "uas kapan",
+        "minggu tenang",
+        "masuk kuliah kapan",
+        "libur",
+        "libur kapan",
+        "berapa lama libur",
+        "tanggal berapa libur",
+        "minggu tenang",
+        "jadwal uts",
+        "jadwal uas",
+        "kapan libur semester",
+        "kapan wisuda",
+        "rencana studi"
+      ],
+      "responses": [
+        "📅 UNKLAB pake sistem 2 semester (Ganjil & Genap).\nLibur panjang biasanya bulan Juni-Juli dan Desember-Januari.\nCek tanggal pastinya di kalender akademik ya!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "kamu ngomong apa sih",
+        "jawaban tidak nyambung",
+        "bot error ya",
+        "saya tidak mengerti maksudmu",
+        "responmu aneh",
+        "ngawur jawabannya",
+        "bisa jelaskan ulang",
+        "bahasamu membingungkan",
+        "ga jelas lu min",
+        "pertanyaan saya belum terjawab",
+        "sistem rusak",
+        "jawabanmu salah terus"
+      ],
+      "responses": [
+        "Hmm, coba tanya yang lebih jelas tentang UNKLAB ya."
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "makasih",
+        "thanks",
+        "tq",
+        "tengkyu",
+        "nuhun",
+        "thx",
+        "oke makasih",
+        "sip",
+        "mantap",
+        "ok",
+        "sankyu",
+        "trimakasih",
+        "tenks",
+        "spanappreciate it",
+        "terbantu sekali",
+        "thanks bot",
+        "thx ya",
+        "makasih infonya",
+        "penjelasan yang bagus",
+        "oke sip"
+      ],
+      "responses": [
+        "Sama-sama! Sukses kuliahnya ya! 🎓",
+        "Oke, sip! Ada lagi yang mau ditanyain?",
+        "Siap! Jangan sungkan tanya lagi ya."
+      ]
+    },
+    {
+      "tag": "advent_identity",
+      "patterns": [
+        "apa itu adven",
+        "unklap advent ya",
+        "kenapa harus adven",
+        "apa itu gereja advent",
+        "advent itu aliran apa",
+        "unclab agama apa",
+        "apa bedanya advent sama kristen lain",
+        "ajaran advent unklap",
+        "agama pendiri unklap",
+        "advent itu apa sih",
+        "kenapa unklab advent",
+        "apakah unklab advent",
+        "unklap advent",
+        "apa itu adven",
+        "agama adven",
+        "kenapa hari sabtu libur",
+        "kenapa sabtu ke gereja",
+        "is unklab seventh day adventist",
+        "what is sda",
+        "unklab adven",
+        "saturday worship",
+        "boleh keluar hari sabtu",
+        "advent"
+      ],
+      "responses": [
+        "Universitas Klabat (UNKLAB) adalah institusi pendidikan Kristen yang dikelola oleh Gereja Masehi Advent Hari Ketujuh (GMAHK). Fokus kami adalah pendidikan holistik: mental, fisik, dan spiritual.",
+        "Advent adalah denominasi Kristen yang menjunjung tinggi Alkitab dan menguduskan hari Sabat (Sabtu). UNKLAB menerapkan nilai-nilai ini dalam kurikulum dan gaya hidup kampus."
+      ]
+    },
+    {
+      "tag": "makanan_haram",
+      "patterns": [
+        "boleh makan babi",
+        "kenapa gak boleh makan daging",
+        "bawa sosis babi",
+        "vegetarian unklap",
+        "boleh bawa mie babi",
+        "haram food unklab",
+        "alkohol dan daging",
+        "kenapa kantin gak jual daging",
+        "makanan yang dilarang unklap",
+        "sanksi bawa makanan haram",
+        "babi boleh masuk kampus gak",
+        "unclab vegetarian ya",
+        "makan daging sembunyi sembunyi"
+      ],
+      "responses": [
+        "Sesuai Pasal 49 ayat 5: Setiap makanan, termasuk makanan haram, yang ditemukan di asrama akan disita dan tidak dikembalikan. UNKLAB menerapkan pola hidup sehat vegetarian.",
+        "Di lingkungan UNKLAB, kami hanya mengonsumsi dan mengizinkan makanan sehat (vegetarian). Makanan haram dilarang keras masuk ke area asrama dan kampus."
+      ]
+    },
+    {
+      "tag": "aturan_sabat",
+      "patterns": [
+        "kegiatan vesper jumat malam",
+        "jam ibadah raya sabtu",
+        "apakah kantin buka saat sabat",
+        "dilarang berjualan hari sabtu",
+        "aturan belanja di hari sabat",
+        "wajib ke gereja pioneer",
+        "jam buka sabat dan tutup sabat",
+        "boleh pesan gofood hari sabtu",
+        "kenapa tidak boleh transaksi",
+        "sekolah sabat jam berapa",
+        "midweek prayer",
+        "persiapan hari sabat",
+        "boleh naik kendaraan saat sabat",
+        "mengapa sabtu disucikan"
+      ],
+      "responses": [
+        "Sabat (Sabtu) adalah hari suci perhentian. Seluruh kegiatan akademik dan bisnis dihentikan, dan mahasiswa asrama diwajibkan mengikuti ibadah sesuai visi misi institusi.",
+        "Sesuai prinsip Advent, hari Sabtu adalah waktu untuk Tuhan. Oleh karena itu, aturan di kampus dan asrama disesuaikan untuk menjaga kekhusyukan hari Sabat."
+      ]
+    },
+    {
+      "tag": "rambut_grooming",
+      "patterns": [
+        "rambut gondrong boleh",
+        "potong rambut",
+        "pria rambut panjang",
+        "hair cut rules",
+        "long hair forbidden",
+        "unklap potong rambut",
+        "rambut rapi unklap",
+        "boleh cat rambut",
+        "colored hair",
+        "gondrong di unklab",
+        "standar rambut mahasiswa",
+        "rambut",
+        "pirang"
+      ],
+      "responses": [
+        "Mahasiswa pria diwajibkan berambut rapi dan tidak panjang (tidak menyentuh kerah baju atau menutupi telinga). Pengecekan rambut dilakukan secara berkala demi kerapian kampus.",
+        "Standar kerapian UNKLAB melarang rambut gondrong bagi pria dan warna rambut yang mencolok. Melanggar aturan ini bisa menghambat urusan administrasi Anda."
+      ]
+    },
+    {
+      "tag": "sanksi_sitaan",
+      "patterns": [
+        "hp disita",
+        "laptop diambil",
+        "barang disita berapa lama",
+        "bawa emas boleh",
+        "aksesoris disita",
+        "confiscated items",
+        "phone taken in chapel",
+        "barang sitaan jadi milik unklab",
+        "cara ambil barang sitaan",
+        "unklab sita hp",
+        "apakah barang sitaan bisa balik",
+        "sita",
+        "sitaan"
+      ],
+      "responses": [
+        "Berdasarkan Pasal 49: Alat elektronik yang dilarang disita 1 semester. HP yang disita di tempat ibadah (setelah 3x teguran) disita 3 hari. Aksesoris berharga (emas/perak) disita 1 semester, jika tidak diambil akan menjadi milik universitas.",
+        "Penyitaan dilakukan sesuai Pasal 49 Buku Panduan. Pastikan tidak menggunakan alat elektronik di tempat ibadah dan tidak membawa perhiasan berlebihan ke asrama."
+      ]
+    },
+    {
+      "tag": "dress_code",
+      "patterns": [
+        "pakaian ke kampus",
+        "boleh pakai kaos",
+        "celana pendek",
+        "can i wear t-shirt",
+        "formal dress unklab",
+        "peraturan rok",
+        "pakaian wanita",
+        "standar kerapian",
+        "apakah boleh pke crocs",
+        "sendal",
+        "crocs",
+        "loafers",
+        "telanjang",
+        "pakai celan pendekaturan berpakaian kuliah",
+        "boleh pakai celana jeans",
+        "dilarang pakai kaos oblong",
+        "standar seragam kuliah",
+        "pakai rok seberapa pendek",
+        "aturan baju fakultas",
+        "boleh pakai sandal",
+        "ketentuan seragam",
+        "pakaian yang sopan",
+        "dresscode mahasiswa"
+      ],
+      "responses": [
+        "Mahasiswa diwajibkan berpakaian sopan dan rapi (formal/semi-formal). Pria tidak diizinkan berambut panjang (gondrong) dan wanita diharapkan mengenakan pakaian yang pantas sesuai standar moral institusi.",
+        "Standar pakaian UNKLAB menekankan kerapian. Kaos oblong, celana pendek, dan rambut gondrong untuk pria dilarang saat mengikuti kegiatan akademik dan administrasi."
+      ]
+    },
+    {
+      "tag": "admission_english",
+      "patterns": [
+        "how to register",
+        "admission process",
+        "tuition fee",
+        "scholarship",
+        "how much to pay",
+        "foreign student",
+        "international student",
+        "unklab registration 2024",
+        "enrollment",
+        "entrance exam",
+        "where is the finance office",
+        "payment method"
+      ],
+      "responses": [
+        "You can register online via unklab.ac.id or visit the Admissions Office in the Crystal Building. Tuition fees vary by program; please contact the Finance Department for a detailed breakdown.",
+        "UNKLAB welcomes international students. Scholarship information and admission requirements are available at the Admissions and Records office."
+      ]
+    },
+    {
+      "tag": "dorm_rules",
+      "patterns": [
+        "jam malam",
+        "curfew",
+        "boleh pulang jam berapa",
+        "dormitory rules",
+        "dorm leave",
+        "pulang malamtidur di luar ",
+        "denda telat masuk asrama",
+        "apakah bisa jemput orang di asrama",
+        "jemput orang",
+        "keluar asrama",
+        "batas jam malam asrama",
+        "prosedur ijin bermalam",
+        "surat ijin keluar asrama",
+        "sanksi terlambat masuk asrama",
+        "aturan jam kunjungan lawan jenis",
+        "buku sign out asrama",
+        "berapa poin pelanggaran asrama",
+        "ijin pesiar asrama",
+        "batas waktu kembali ke asrama",
+        "denda poin keterlambatan",
+        "syarat ijin pulang ke rumah"
+      ],
+      "responses": [
+        "Mahasiswa asrama wajib mematuhi jam malam yang ditentukan. Izin keluar (pesiar) harus melalui aplikasi atau persetujuan Dean/Pembina Asrama sesuai prosedur di Buku Panduan.",
+        "Gerbang kampus biasanya ditutup pada jam malam tertentu. Pelanggaran jam malam akan dikenakan sanksi poin sesuai tingkat pelanggarannya."
+      ]
+    },
+    {
+      "tag": "denda_perhiasan",
+      "patterns": [
+        "boleh pake kalung emas",
+        "cincin ",
+        "pake perhiasan di asrama",
+        "emas diambil unklap",
+        "jewelry rules",
+        "aksesoris berharga ",
+        "pasal 49 perhiasan",
+        "unclab  kalung",
+        "kalung diambil village dean",
+        "perhiasan",
+        "emas",
+        "kalung",
+        "gelang"
+      ],
+      "responses": [
+        "Pasal 49 ayat 3 & 4 menyatakan: Aksesoris berharga (emas/perak) disita minimal satu semester. Jika tidak diambil setelah jangka waktu yang ditentukan, akan menjadi milik universitas.",
+        "Demi keamanan dan kesederhanaan, perhiasan berlebihan dilarang. Jika disita, pastikan Anda mengambilnya tepat waktu agar tidak berpindah kepemilikan ke universitas sesuai peraturan."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Core ML
+numpy>=1.24.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+joblib>=1.3.0
+
+# NLP
+nltk>=3.8.0
+sastrawi>=1.0.0
+
+# Voice
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.13
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Optional
+nusacrowd>=0.1.0
